@@ -6,6 +6,7 @@ namespace ModuleA
 {
     public class ModuleAModule : IModule
     {
+
         IRegionManager _regionManager;
 
         public ModuleAModule(IRegionManager regionManager)

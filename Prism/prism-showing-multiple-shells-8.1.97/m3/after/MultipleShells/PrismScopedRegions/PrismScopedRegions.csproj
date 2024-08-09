@@ -5,9 +5,11 @@
     <TargetFramework>net8.0-windows</TargetFramework>
     <UseWPF>true</UseWPF>
       <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
-  </PropertyGroup><ItemGroup>
+  </PropertyGroup>
+  <ItemGroup>
   <PackageReference Include="Prism.Unity" Version="8.1.97" />
-</ItemGroup><ItemGroup>
+    </ItemGroup>
+    <ItemGroup>
   <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
   <ProjectReference Include="..\ModuleA\ModuleA.csproj" />
 </ItemGroup>

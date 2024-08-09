@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+      <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+      <UseWPF>true</UseWPF>
+  </PropertyGroup>
+    <ItemGroup>
+      <PackageReference Include="Prism.Wpf" Version="8.1.97" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\TabControlRegion.Core\TabControlRegion.Core.csproj" />
+    </ItemGroup> 
+</Project>

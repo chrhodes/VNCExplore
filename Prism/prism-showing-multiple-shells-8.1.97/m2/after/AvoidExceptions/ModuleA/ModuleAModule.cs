@@ -22,6 +22,9 @@ namespace ModuleA
             IRegion region = _regionManager.Regions[KnownRegionNames.ContentRegion];
 
             var view1 = containerProvider.Resolve<ViewA>();
+            //region.Add(view1);
+            // NOTE(crhodes)
+            // Create region manager scope and add view to region
             IRegionManager r1 = region.Add(view1, null, true);
             region.Activate(view1);
 

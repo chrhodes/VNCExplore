@@ -29,7 +29,6 @@ namespace PrismScopedRegions
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            //throw new NotImplementedException();
         }
     }
 }

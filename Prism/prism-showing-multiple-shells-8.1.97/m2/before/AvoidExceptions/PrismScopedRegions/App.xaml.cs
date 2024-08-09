@@ -10,7 +10,6 @@ namespace PrismScopedRegions
 {
     public partial class App : PrismApplication
     {
-
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         {
             moduleCatalog.AddModule(typeof(ModuleAModule));
@@ -29,7 +28,7 @@ namespace PrismScopedRegions
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            //throw new NotImplementedException();
+
         }
     }
 }

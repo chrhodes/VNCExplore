@@ -16,6 +16,7 @@ namespace PrismScopedRegions
 
             base.ConfigureModuleCatalog(moduleCatalog);
         }
+
         protected override Window CreateShell()
         {
             return Container.Resolve<Shell>();

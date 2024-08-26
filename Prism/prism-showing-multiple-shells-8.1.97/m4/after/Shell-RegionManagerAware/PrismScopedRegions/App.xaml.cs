@@ -30,6 +30,12 @@ namespace PrismScopedRegions
 
         protected override void InitializeShell(Window shell)
         {
+			// NOTE(crhodes)
+			// Not sure if this should be done before or after base.InitializeShell
+
+			// TODO(crhodes)
+			// Read Prism source to see what InitializeShell does
+
             var regionManager = RegionManager.GetRegionManager(shell);
             RegionManagerAware.SetRegionManagerAware(shell, regionManager);
             

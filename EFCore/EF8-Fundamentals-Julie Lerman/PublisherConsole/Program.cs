@@ -3,8 +3,7 @@ using System;
 using System.Linq;
 
 using Microsoft.EntityFrameworkCore;
-
-using PublisherData;
+using PublisherConsole.Persistence.Database;
 
 using PublisherDomain;
 
@@ -12,17 +11,25 @@ namespace PublisherConsole
 {
     class Program
     {
+       //using PubContext _context = new();
+
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello, World!");
 
-            using (PubContext context = new PubContext())
-            {
-                // NOTE(crhodes)
-                // This is good for demos.  Just create on the fly
+            using PubContext _context = new();
 
-                context.Database.EnsureCreated();
-            }
+            // NOTE(crhodes)
+            // Removed in Module 3 as we know the database exists
+            // No need to spend time checking
+
+            //using (PubContext context = new PubContext())
+            //{
+            //    // NOTE(crhodes)
+            //    // This is good for demos.  Just create on the fly
+            //  
+            //    //context.Database.EnsureCreated();
+            //}
 
             var p = new Program();
 
@@ -30,9 +37,15 @@ namespace PublisherConsole
             //p.AddAuthors();
             //p.GetAuthors();
 
-            p.AddAuthorWithBook();
-            p.GetAuthorsWithBooks();
+            //p.AddAuthorWithBook();
+            //p.GetAuthorsWithBooks();
+
+            void QueryFilters()
+            {
+                
+            }
         }
+
 
         private void GetAuthors()
         {
@@ -53,6 +66,7 @@ namespace PublisherConsole
                 Console.WriteLine(author.FirstName + " " + author.LastName);
             }
         }
+
         private void AddAuthors()
         {
             var author = new Author { FirstName = "Archer" , LastName = "Schrhodes"};

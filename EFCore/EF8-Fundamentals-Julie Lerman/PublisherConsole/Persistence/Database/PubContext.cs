@@ -1,14 +1,17 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-
 using PublisherDomain;
 
-namespace PublisherData
+namespace PublisherConsole.Persistence.Database
 {
     public class PubContext : DbContext
     {
         public DbSet<Author> Authors { get; set; }
         public DbSet<Book> Books { get; set; }
+
+        public PubContext()
+        {
+        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

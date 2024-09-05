@@ -32,6 +32,10 @@ namespace PrismScopedRegions.ViewModels
             RegionManager.RequestNavigate(KnownRegionNames.ContentRegion, viewName);
         }
 
-        public IRegionManager RegionManager { get; set; }
+        public IRegionManager RegionManager 
+        { 
+            get; 
+            set; 
+        }
     }
 }

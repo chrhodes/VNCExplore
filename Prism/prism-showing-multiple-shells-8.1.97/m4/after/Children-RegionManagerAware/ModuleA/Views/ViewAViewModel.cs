@@ -25,7 +25,11 @@ namespace ModuleA
             RegionManager.RequestNavigate(KnownRegionNames.ContentRegion, "ViewB");
         }
 
-        public IRegionManager RegionManager { get; set; }
+        public IRegionManager RegionManager 
+        { 
+            get; 
+            set; 
+        }
 
     }
 }

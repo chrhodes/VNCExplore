@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Prism.Commands.AsyncDelegateCommand">
+    <Position X="12" Y="0.75" Width="5.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Prism.Commands.AsyncDelegateCommand&lt;T&gt;">
+    <Position X="18" Y="0.75" Width="5.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Prism.Commands.CompositeCommand">
+    <Position X="0.5" Y="10.5" Width="3.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Commands.DelegateCommand">
+    <Position X="0.5" Y="0.75" Width="5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Commands.DelegateCommand&lt;T&gt;">
+    <Position X="6" Y="0.75" Width="5.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Commands.DelegateCommandBase">
+    <Position X="3.25" Y="6.25" Width="4.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Prism.Commands.IAsyncCommand">
+    <Position X="0.5" Y="7.75" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

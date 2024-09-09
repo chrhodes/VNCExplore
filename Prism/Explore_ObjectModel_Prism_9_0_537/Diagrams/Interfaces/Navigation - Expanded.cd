@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Interface Name="Prism.Navigation.IDestructible">
+    <Position X="1.25" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Navigation.INavigationParameters">
+    <Position X="3.5" Y="1.25" Width="2" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Navigation.INavigationParametersInternal">
+    <Position X="0.5" Y="4.75" Width="2.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Navigation.INavigationResult">
+    <Position X="7.25" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Common.IParameters">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

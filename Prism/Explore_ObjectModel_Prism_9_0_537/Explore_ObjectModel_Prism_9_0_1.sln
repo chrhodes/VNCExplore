@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explore_ObjectModel_Prism_9_0_1", "Explore_ObjectModel_Prism_9_0_1.csproj", "{5DC3CFF8-5263-41BE-8843-A5D71429B0DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DC3CFF8-5263-41BE-8843-A5D71429B0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC3CFF8-5263-41BE-8843-A5D71429B0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC3CFF8-5263-41BE-8843-A5D71429B0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC3CFF8-5263-41BE-8843-A5D71429B0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2B83D0D-1808-4276-814E-432AC4864D78}
+	EndGlobalSection
+EndGlobal

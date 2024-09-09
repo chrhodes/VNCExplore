@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Prism.PrismBootstrapperBase">
+    <Position X="8" Y="4.5" Width="6" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Unity.PrismApplication">
+    <Position X="2.75" Y="2.25" Width="3.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.PrismApplicationBase">
+    <Position X="1.75" Y="4.25" Width="6" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Explore_ObjectModel_Prism_8_1_97.App">
+    <Position X="2.5" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Prism.Unity.PrismBootstrapper">
+    <Position X="7.75" Y="2.25" Width="3.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Prism.Commands.CompositeCommand" Collapsed="true">
+    <Position X="0.75" Y="4" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Commands.DelegateCommand" Collapsed="true">
+    <Position X="0.75" Y="1" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Commands.DelegateCommand&lt;T&gt;" Collapsed="true">
+    <Position X="3" Y="1" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Commands.DelegateCommandBase" Collapsed="true">
+    <Position X="2" Y="2.5" Width="1.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

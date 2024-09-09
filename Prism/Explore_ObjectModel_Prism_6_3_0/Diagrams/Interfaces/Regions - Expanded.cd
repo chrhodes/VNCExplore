@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Interface Name="Prism.Regions.IConfirmNavigationRequest">
+    <Position X="14.75" Y="5.75" Width="6.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Regions.INavigateAsync">
+    <Position X="6.25" Y="5.75" Width="7.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Regions.INavigationAware">
+    <Position X="15.5" Y="7.5" Width="4.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Regions.IRegion">
+    <Position X="4.75" Y="0.5" Width="5.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Regions.IRegionAdapter">
+    <Position X="0.5" Y="16.25" Width="4" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Regions.IRegionBehavior">
+    <Position X="21.75" Y="1.75" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Regions.IRegionBehaviorCollection">
+    <Position X="21.75" Y="5.75" Width="3.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Regions.IRegionBehaviorFactory">
+    <Position X="21.75" Y="3.75" Width="4" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Regions.IRegionCollection">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Regions.IRegionManager">
+    <Position X="0.5" Y="7.5" Width="8.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Regions.IRegionManagerAccessor">
+    <Position X="0.5" Y="11.5" Width="4.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Regions.IRegionMemberLifetime">
+    <Position X="0.5" Y="13.75" Width="2" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Regions.IRegionNavigationContentLoader">
+    <Position X="9.25" Y="7.5" Width="5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Regions.IRegionNavigationJournal">
+    <Position X="9.25" Y="9" Width="4.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Regions.IRegionNavigationJournalEntry">
+    <Position X="9.25" Y="12" Width="3.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Regions.IRegionNavigationService">
+    <Position X="10.75" Y="0.5" Width="4.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Regions.IRegionViewRegistry">
+    <Position X="16.25" Y="11.25" Width="5.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="Prism.Regions.IViewsCollection">
+    <Position X="16.25" Y="13.75" Width="2.25" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,2 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Prism.Regions.RegionMemberLifetimeAttribute">
+    <Position X="0.5" Y="17" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Regions.RegionNavigationEventArgs">
+    <Position X="5.75" Y="12.5" Width="4.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Regions.RegionNavigationFailedEventArgs">
+    <Position X="11" Y="12.5" Width="5.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Regions.SyncActiveStateAttribute">
+    <Position X="4" Y="17" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Regions.UpdateRegionsException">
+    <Position X="0.5" Y="14.75" Width="4.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Regions.ViewRegisteredEventArgs">
+    <Position X="0.5" Y="12.5" Width="5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Regions.ViewRegistrationException">
+    <Position X="5.75" Y="14.75" Width="5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Regions.ViewSortHintAttribute">
+    <Position X="6.5" Y="17" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Regions.Region">
+    <Position X="0.5" Y="3.75" Width="7.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Prism.Regions.AllActiveRegion">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Regions.SingleActiveRegion">
+    <Position X="4.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Regions.ContentControlRegionAdapter">
+    <Position X="8.75" Y="0.5" Width="5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Regions.ItemsControlRegionAdapter">
+    <Position X="8.75" Y="2.5" Width="5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Regions.RegionAdapterBase&lt;T&gt;">
+    <Position X="14.5" Y="7.25" Width="4.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Prism.Regions.SelectorRegionAdapter">
+    <Position X="8.75" Y="4.75" Width="4.75" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

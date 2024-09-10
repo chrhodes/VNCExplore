@@ -1,4 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Prism.Navigation.Regions.Behaviors.AutoPopulateRegionBehavior" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Navigation.Regions.Behaviors.ClearChildViewsRegionBehavior" Collapsed="true">
+    <Position X="3" Y="0.5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Navigation.Regions.Behaviors.DelayedRegionCreationBehavior" Collapsed="true">
+    <Position X="6" Y="0.5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Navigation.Regions.Behaviors.RegionMemberLifetimeBehavior" Collapsed="true">
+    <Position X="6.75" Y="2.75" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Navigation.Regions.Behaviors.BindRegionContextToDependencyObjectBehavior" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="3.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Navigation.Regions.Behaviors.RegionActiveAwareBehavior" Collapsed="true">
+    <Position X="4.25" Y="2.75" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Navigation.Regions.Behaviors.SelectorItemsSourceSyncBehavior" Collapsed="true">
+    <Position X="0.5" Y="4" Width="2.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Prism.Navigation.Regions.Behaviors.SyncRegionContextWithHostBehavior" Collapsed="true">
+    <Position X="6.25" Y="4" Width="2.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Prism.Navigation.Regions.Behaviors.RegionManagerRegistrationBehavior" Collapsed="true">
+    <Position X="3.25" Y="4" Width="2.75" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

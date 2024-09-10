@@ -1,2 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Prism.Regions.NavigationContext">
+    <Position X="0.5" Y="0.5" Width="7.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Regions.NavigationParameters">
+    <Position X="0.5" Y="3" Width="3.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Prism.Regions.NavigationResult">
+    <Position X="0.5" Y="6.75" Width="4.25" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

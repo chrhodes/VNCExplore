@@ -11,6 +11,16 @@
   </Class>
   <Class Name="Prism.Regions.Behaviors.ClearChildViewsRegionBehavior">
     <Position X="5.5" Y="0.75" Width="4.25" />
+    <InheritanceLine Type="Prism.Regions.RegionBehavior" ManuallyRouted="true">
+      <Path>
+        <Point X="12.625" Y="11.5" />
+        <Point X="12.625" Y="6.127" />
+        <Point X="10.931" Y="6.127" />
+        <Point X="10.931" Y="3.58" />
+        <Point X="7.625" Y="3.58" />
+        <Point X="7.625" Y="3.204" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Regions.Behaviors.DelayedRegionCreationBehavior">
@@ -42,6 +52,11 @@
   </Class>
   <Class Name="Prism.Regions.Behaviors.SyncRegionContextWithHostBehavior">
     <Position X="8.75" Y="8" Width="3.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Prism.Regions.RegionBehavior">
+    <Position X="11.5" Y="11.5" Width="2.25" />
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>

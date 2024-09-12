@@ -28,7 +28,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Interface Name="Prism.Commands.IAsyncCommand" Collapsed="true">
-    <Position X="7.25" Y="4.75" Width="1.5" />
+    <Position X="6.5" Y="2.25" Width="1.5" />
     <TypeIdentifier />
   </Interface>
   <Font Name="Segoe UI" Size="9" />

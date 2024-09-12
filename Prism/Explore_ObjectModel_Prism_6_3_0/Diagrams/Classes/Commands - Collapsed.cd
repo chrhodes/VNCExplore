@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Prism.Commands.CompositeCommand" Collapsed="true">
-    <Position X="0.75" Y="3.75" Width="1.5" />
+    <Position X="0.75" Y="3.75" Width="1.75" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Commands.DelegateCommand" Collapsed="true">

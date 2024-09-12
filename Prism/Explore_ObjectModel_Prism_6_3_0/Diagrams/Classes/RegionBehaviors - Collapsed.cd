@@ -45,5 +45,10 @@
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="Prism.Regions.RegionBehavior" Collapsed="true">
+    <Position X="10.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

@@ -13,7 +13,7 @@
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Mvvm.PropertySupport" Collapsed="true">
-    <Position X="0.5" Y="1.5" Width="1.5" />
+    <Position X="0.5" Y="1.75" Width="1.5" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Mvvm.ViewModelLocationProvider" Collapsed="true">

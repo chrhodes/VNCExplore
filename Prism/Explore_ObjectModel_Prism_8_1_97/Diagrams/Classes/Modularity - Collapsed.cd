@@ -1,106 +1,106 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Prism.Modularity.AssemblyResolver" Collapsed="true">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Position X="7.25" Y="5.25" Width="1.5" />
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Prism.Modularity.ConfigurationModuleCatalog" Collapsed="true">
-    <Position X="0.5" Y="1.25" Width="2.25" />
+    <Position X="0.5" Y="0.5" Width="2.25" />
     <InheritanceLine Type="Prism.Modularity.ModuleCatalog" ManuallyRouted="true">
       <Path>
-        <Point X="3.25" Y="2.5" />
-        <Point X="3.25" Y="1.596" />
-        <Point X="2.75" Y="1.596" />
+        <Point X="3.25" Y="1.75" />
+        <Point X="3.25" Y="0.846" />
+        <Point X="2.75" Y="0.846" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ConfigurationStore" Collapsed="true">
-    <Position X="0.5" Y="3" Width="1.75" />
+    <Position X="7.25" Y="4.25" Width="1.75" />
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Prism.Modularity.CyclicDependencyFoundException" Collapsed="true">
-    <Position X="0.5" Y="12.5" Width="2.5" />
+    <Position X="0.5" Y="9" Width="2.5" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.DirectoryModuleCatalog" Collapsed="true">
-    <Position X="3.5" Y="1.25" Width="2" />
+    <Position X="3.5" Y="0.5" Width="2" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.DuplicateModuleException" Collapsed="true">
-    <Position X="0.5" Y="13.5" Width="2.25" />
+    <Position X="0.5" Y="10" Width="2.25" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.FileModuleTypeLoader" Collapsed="true">
-    <Position X="3.5" Y="3.75" Width="2" />
+    <Position X="3.5" Y="3" Width="2" />
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Prism.Modularity.LoadModuleCompletedEventArgs" Collapsed="true">
-    <Position X="5" Y="12.5" Width="2.5" />
+    <Position X="5" Y="9" Width="2.5" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ModularityException" Collapsed="true">
-    <Position X="3" Y="18.75" Width="1.75" />
+    <Position X="3" Y="15.25" Width="1.75" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ModuleAttribute" Collapsed="true">
-    <Position X="5" Y="14.75" Width="1.5" />
+    <Position X="5" Y="11.25" Width="1.5" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ModuleCatalog" Collapsed="true">
-    <Position X="2.5" Y="2.5" Width="1.5" />
+    <Position X="2.5" Y="1.75" Width="1.5" />
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Prism.Modularity.ModuleConfigurationElement" Collapsed="true">
-    <Position X="0.5" Y="7.25" Width="2.25" />
+    <Position X="0.5" Y="7.75" Width="2.25" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ModuleConfigurationElementCollection" Collapsed="true">
-    <Position X="0.5" Y="6.25" Width="3" />
+    <Position X="0.5" Y="6.75" Width="3" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ModuleDependencyAttribute" Collapsed="true">
-    <Position X="5" Y="15.75" Width="2.25" />
+    <Position X="5" Y="12.25" Width="2.25" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ModuleDependencyCollection" Collapsed="true">
-    <Position X="3.75" Y="5.25" Width="2.25" />
+    <Position X="3.75" Y="5.75" Width="2.25" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ModuleDependencyConfigurationElement" Collapsed="true">
-    <Position X="3.75" Y="6.25" Width="3" />
+    <Position X="3.75" Y="6.75" Width="3" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ModuleDependencySolver" Collapsed="true">
-    <Position X="3.75" Y="7.25" Width="2" />
+    <Position X="3.75" Y="7.75" Width="2" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ModuleDownloadProgressChangedEventArgs" Collapsed="true">
-    <Position X="5" Y="13.5" Width="3.25" />
+    <Position X="5" Y="10" Width="3.25" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ModuleInfo" Collapsed="true">
-    <Position X="7.25" Y="3.25" Width="1.5" />
+    <Position X="6.5" Y="2" Width="1.5" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ModuleInfoGroup" Collapsed="true">
-    <Position X="7.25" Y="5.5" Width="1.5" />
+    <Position X="6.5" Y="3" Width="1.5" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ModuleInfoGroupExtensions" Collapsed="true">
-    <Position X="7.25" Y="6.5" Width="2.25" />
+    <Position X="8.5" Y="3" Width="2.25" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ModuleInitializeException" Collapsed="true">
-    <Position X="0.5" Y="14.5" Width="2" />
+    <Position X="0.5" Y="11" Width="2" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ModuleInitializer" Collapsed="true">
-    <Position X="7.25" Y="7.5" Width="1.5" />
+    <Position X="5" Y="4" Width="1.5" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ModuleManager" Collapsed="true">
@@ -108,19 +108,19 @@
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ModuleNotFoundException" Collapsed="true">
-    <Position X="0.5" Y="15.5" Width="2.25" />
+    <Position X="0.5" Y="12" Width="2.25" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ModulesConfigurationSection" Collapsed="true">
-    <Position X="0.5" Y="5.25" Width="2.25" />
+    <Position X="0.5" Y="5.75" Width="2.25" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ModuleTypeLoaderNotFoundException" Collapsed="true">
-    <Position X="0.75" Y="17.5" Width="3" />
+    <Position X="0.75" Y="14" Width="3" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Modularity.ModuleTypeLoadingException" Collapsed="true">
-    <Position X="0.5" Y="16.5" Width="2.25" />
+    <Position X="0.5" Y="13" Width="2.25" />
     <TypeIdentifier />
   </Class>
   <Font Name="Segoe UI" Size="9" />

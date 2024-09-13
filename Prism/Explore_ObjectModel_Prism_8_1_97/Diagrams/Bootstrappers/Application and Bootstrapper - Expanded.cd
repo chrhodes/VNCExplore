@@ -16,7 +16,7 @@
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Unity.PrismBootstrapper">
-    <Position X="0.75" Y="2.5" Width="3.5" />
+    <Position X="0.5" Y="2.5" Width="3.5" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.PrismBootstrapperBase">

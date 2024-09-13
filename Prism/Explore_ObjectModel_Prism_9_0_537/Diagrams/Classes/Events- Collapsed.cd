@@ -9,11 +9,11 @@
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Events.DataEventArgs&lt;TData&gt;" Collapsed="true">
-    <Position X="6" Y="6.25" Width="2" />
+    <Position X="5.25" Y="6.25" Width="2" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Events.DelegateReference" Collapsed="true">
-    <Position X="6" Y="7.25" Width="1.75" />
+    <Position X="5.25" Y="7.25" Width="1.75" />
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>
@@ -61,11 +61,11 @@
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Events.SubscriptionToken" Collapsed="true">
-    <Position X="8.75" Y="6.25" Width="1.75" />
+    <Position X="8" Y="6.25" Width="1.75" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Events.WeakDelegatesManager" Collapsed="true">
-    <Position X="6" Y="8.25" Width="2" />
+    <Position X="8" Y="7.5" Width="2" />
     <TypeIdentifier />
   </Class>
   <Font Name="Segoe UI" Size="9" />

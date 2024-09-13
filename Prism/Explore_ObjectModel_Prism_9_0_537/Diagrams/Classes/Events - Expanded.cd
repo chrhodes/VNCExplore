@@ -9,11 +9,11 @@
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Events.DataEventArgs&lt;TData&gt;">
-    <Position X="0.5" Y="11.25" Width="2.25" />
+    <Position X="0.75" Y="20" Width="2.25" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Events.DelegateReference">
-    <Position X="3.25" Y="11.25" Width="4.25" />
+    <Position X="0.5" Y="22" Width="4.25" />
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>
@@ -34,12 +34,12 @@
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Events.EventAggregator">
-    <Position X="0.5" Y="14" Width="2.75" />
+    <Position X="9.5" Y="18" Width="2.75" />
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Prism.Events.EventBase">
-    <Position X="28.75" Y="7" Width="5" />
+    <Position X="7.5" Y="14.25" Width="5" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Events.EventSubscription">
@@ -53,19 +53,19 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Prism.Events.PubSubEvent">
-    <Position X="22.5" Y="0.5" Width="7" />
+    <Position X="1.25" Y="7.75" Width="7" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Events.PubSubEvent&lt;TPayload&gt;">
-    <Position X="21.75" Y="3.75" Width="7.75" />
+    <Position X="0.5" Y="11" Width="7.75" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Events.SubscriptionToken">
-    <Position X="8" Y="11.25" Width="3.25" />
+    <Position X="4.25" Y="19.5" Width="3.25" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Events.WeakDelegatesManager">
-    <Position X="3.75" Y="14" Width="3" />
+    <Position X="8.75" Y="21.25" Width="3" />
     <TypeIdentifier />
   </Class>
   <Font Name="Segoe UI" Size="9" />

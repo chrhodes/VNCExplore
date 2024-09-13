@@ -53,7 +53,7 @@
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Events.SubscriptionToken" Collapsed="true">
-    <Position X="6.5" Y="7" Width="1.75" />
+    <Position X="6.75" Y="6" Width="1.75" />
     <TypeIdentifier />
   </Class>
   <Font Name="Segoe UI" Size="9" />

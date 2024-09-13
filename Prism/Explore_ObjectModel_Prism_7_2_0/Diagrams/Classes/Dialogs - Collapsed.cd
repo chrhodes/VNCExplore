@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Prism.Services.Dialogs.Dialog" Collapsed="true">
-    <Position X="0.75" Y="2.25" Width="1.5" />
+    <Position X="0.5" Y="0.75" Width="1.5" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Services.Dialogs.DialogParameters" Collapsed="true">
-    <Position X="0.75" Y="3.25" Width="1.5" />
+    <Position X="0.5" Y="1.75" Width="1.5" />
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Prism.Services.Dialogs.DialogResult" Collapsed="true">
-    <Position X="0.75" Y="4.5" Width="1.5" />
+    <Position X="0.5" Y="3" Width="1.5" />
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Prism.Services.Dialogs.DialogService" Collapsed="true">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Position X="5.5" Y="0.75" Width="1.5" />
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="Prism.Services.Dialogs.DialogWindow" Collapsed="true">
-    <Position X="3" Y="2.25" Width="1.5" />
+    <Position X="2.75" Y="0.75" Width="1.5" />
     <TypeIdentifier />
     <Lollipop Position="0.2" />
   </Class>

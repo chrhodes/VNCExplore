@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Interface Name="Prism.Modularity.IModule">
-    <Position X="8" Y="2.75" Width="1.5" />
+    <Position X="8.5" Y="0.5" Width="1.5" />
     <TypeIdentifier />
   </Interface>
   <Interface Name="Prism.Modularity.IModuleCatalog">
-    <Position X="1.25" Y="0.5" Width="6.25" />
+    <Position X="0.5" Y="0.5" Width="6.25" />
     <TypeIdentifier />
   </Interface>
   <Interface Name="Prism.Modularity.IModuleCatalogItem">
-    <Position X="4.75" Y="3" Width="1.75" />
+    <Position X="8.5" Y="4.75" Width="1.75" />
     <TypeIdentifier />
   </Interface>
   <Interface Name="Prism.Modularity.IModuleInitializer">
-    <Position X="0.5" Y="4.75" Width="2.75" />
+    <Position X="4.5" Y="3" Width="2.75" />
     <TypeIdentifier />
   </Interface>
   <Interface Name="Prism.Modularity.IModuleManager">
-    <Position X="0.5" Y="6.75" Width="5.75" />
+    <Position X="0.5" Y="7.75" Width="5.75" />
     <TypeIdentifier />
   </Interface>
   <Interface Name="Prism.Modularity.IAssemblyResolver">
@@ -25,11 +25,11 @@
     <TypeIdentifier />
   </Interface>
   <Interface Name="Prism.Modularity.IModuleTypeLoader">
-    <Position X="4.25" Y="4.5" Width="5.75" />
+    <Position X="0.5" Y="4.5" Width="5.75" />
     <TypeIdentifier />
   </Interface>
   <Interface Name="Prism.Modularity.IConfigurationStore">
-    <Position X="1" Y="9.75" Width="4.5" />
+    <Position X="6.75" Y="7.75" Width="4.5" />
     <TypeIdentifier />
   </Interface>
   <Font Name="Segoe UI" Size="9" />

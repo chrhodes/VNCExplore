@@ -1,39 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Prism.Container.Unity.PrismIocExtensions" Collapsed="true">
-    <Position X="0.5" Y="0.5" Width="1.75" />
+    <Position X="0.5" Y="2.5" Width="1.75" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Container.Unity.UnityContainerExtension" Collapsed="true">
-    <Position X="3" Y="0.5" Width="2" />
+    <Position X="3.75" Y="0.5" Width="2" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Ioc.ContainerProviderExtension" Collapsed="true">
-    <Position X="0.5" Y="1.75" Width="2.25" />
+    <Position X="0.5" Y="0.5" Width="2.25" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Ioc.ContainerResolutionErrorCollection" Collapsed="true">
-    <Position X="0.5" Y="7.25" Width="2.75" />
+    <Position X="0.5" Y="5.75" Width="2.75" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Ioc.ContainerResolutionException" Collapsed="true">
-    <Position X="0.5" Y="8.25" Width="2.25" />
+    <Position X="0.5" Y="6.75" Width="2.25" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Ioc.IContainerProviderExtensions" Collapsed="true">
-    <Position X="0.5" Y="4.5" Width="2.25" />
+    <Position X="0.5" Y="3.5" Width="2.25" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Ioc.MicrosoftDependencyInjectionExtensions" Collapsed="true">
-    <Position X="0.5" Y="5.5" Width="3" />
+    <Position X="3.5" Y="3.75" Width="3" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Ioc.PrismServiceProviderFactory" Collapsed="true">
-    <Position X="0.5" Y="6.5" Width="2.25" />
+    <Position X="0.5" Y="1.5" Width="2.25" />
     <TypeIdentifier />
   </Class>
   <Class Name="Prism.Ioc.Internals.RegisterManyExtensions" Collapsed="true">
-    <Position X="4.75" Y="3.5" Width="2" />
+    <Position X="0.5" Y="4.5" Width="2" />
     <TypeIdentifier />
   </Class>
   <Font Name="Segoe UI" Size="9" />

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix>indevelopment-2025</VersionSuffix>
+    <FileVersion>2025.58.23</FileVersion>
+    <Description>Layer on top of Phidget22 and Performance Players</Description>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="echo &quot;ConfigurationName &gt;$(ConfigurationName)&lt;&quot;&#xD;&#xA;echo &quot;OutDir            &gt;$(OutDir)&lt;&quot;&#xD;&#xA;echo &quot;DevEnvDir         &gt;$(DevEnvDir)&lt;&quot;&#xD;&#xA;echo &quot;PlatformName      &gt;$(PlatformName)&lt;&quot;&#xD;&#xA;echo &quot;ProjectDir        &gt;$(ProjectDir)&lt;&quot;&#xD;&#xA;echo &quot;ProjectPath       &gt;$(ProjectPath)&lt;&quot;&#xD;&#xA;echo &quot;ProjectName       &gt;$(ProjectName)&lt;&quot;&#xD;&#xA;echo &quot;ProjectFileName   &gt;$(ProjectFileName)&lt;&quot;&#xD;&#xA;echo &quot;ProjectExt        &gt;$(ProjectExt)&lt;&quot;&#xD;&#xA;echo &quot;SolutionDir       &gt;$(SolutionDir)&lt;&quot;&#xD;&#xA;echo &quot;SolutionPath      &gt;$(SolutionPath)&lt;&quot;&#xD;&#xA;echo &quot;SolutionName      &gt;$(SolutionName)&lt;&quot;&#xD;&#xA;echo &quot;SolutionFileName  &gt;$(SolutionFileName)&lt;&quot;&#xD;&#xA;echo &quot;SolutionExt       &gt;$(SolutionExt)&lt;&quot;&#xD;&#xA;echo &quot;TargetDir         &gt;$(TargetDir)&lt;&quot;&#xD;&#xA;echo &quot;TargetPath        &gt;$(TargetPath)&lt;&quot;&#xD;&#xA;echo &quot;TargetFileName    &gt;$(TargetFileName)&lt;&quot;&#xD;&#xA;echo &quot;TargetExt         &gt;$TargetExt&lt;&quot;&#xD;&#xA;powershell.exe -File &quot;$(ProjectDir)\Execute-PreBuild.ps1&quot; -Verbose $(ProjectFileName)" />
+  </Target>
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="powershell.exe -File &quot;$(ProjectDir)\Execute-PostBuild.ps1&quot;" />
+  </Target>
+</Project>

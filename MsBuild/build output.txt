@@ -1,0 +1,235 @@
+Rebuild started at 8:47 AM...
+1>------ Rebuild All started: Project: ClassLibrary1, Configuration: Debug Any CPU ------
+2>------ Rebuild All started: Project: ConsoleApp1, Configuration: Debug Any CPU ------
+Restored D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ConsoleApp1.csproj (in 3 ms).
+Restored D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ClassLibrary1.csproj (in 3 ms).
+2>*** Target BeforeRebuild *** net8.0
+2>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ ProjectFileName ConsoleApp1.csproj
+1>*** Target BeforeRebuild *** net8.0
+1>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ ProjectFileName ClassLibrary1.csproj
+1>*** Target Pack *** TargetFramework net8.0 TargetName ClassLibrary1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll Target
+1>*** Target Pack *** MSBuildThisFile ClassLibrary1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ClassLibrary1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+1>*** Target Pack *** AssemblyName ClassLibrary1 OutDir bin\Debug\net8.0\
+1>*** Target BeforeClean *** net8.0
+1>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ ProjectFileName ClassLibrary1.csproj
+1>*** Target Pack *** TargetFramework net8.0 TargetName ClassLibrary1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll Target
+2>*** Target Pack *** TargetFramework net8.0 TargetName ConsoleApp1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll Target
+2>*** Target Pack *** MSBuildThisFile ConsoleApp1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ConsoleApp1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+2>*** Target Pack *** AssemblyName ConsoleApp1 OutDir bin\Debug\net8.0\
+2>*** Target BeforeClean *** net8.0
+2>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ ProjectFileName ConsoleApp1.csproj
+2>*** Target Pack *** TargetFramework net8.0 TargetName ConsoleApp1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll Target
+2>*** Target Pack *** MSBuildThisFile ConsoleApp1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ConsoleApp1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+2>*** Target Pack *** AssemblyName ConsoleApp1 OutDir bin\Debug\net8.0\
+2>*** Target AfterClean *** net8.0
+2>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ ProjectFileName ConsoleApp1.csproj
+2>*** Target Pack *** TargetFramework net8.0 TargetName ConsoleApp1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll Target
+2>*** Target Pack *** MSBuildThisFile ConsoleApp1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ConsoleApp1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+2>*** Target Pack *** AssemblyName ConsoleApp1 OutDir bin\Debug\net8.0\
+2>*** Target BeforeBuild *** net8.0
+2>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ ProjectFileName ConsoleApp1.csproj
+2>*** Target Pack *** TargetFramework net8.0 TargetName ConsoleApp1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll Target
+2>*** Target Pack *** MSBuildThisFile ConsoleApp1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ConsoleApp1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+2>*** Target Pack *** AssemblyName ConsoleApp1 OutDir bin\Debug\net8.0\
+1>*** Target Pack *** MSBuildThisFile ClassLibrary1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ClassLibrary1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+1>*** Target Pack *** AssemblyName ClassLibrary1 OutDir bin\Debug\net8.0\
+1>*** Target AfterClean *** net8.0
+1>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ ProjectFileName ClassLibrary1.csproj
+1>*** Target Pack *** TargetFramework net8.0 TargetName ClassLibrary1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll Target
+1>*** Target Pack *** MSBuildThisFile ClassLibrary1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ClassLibrary1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+1>*** Target Pack *** AssemblyName ClassLibrary1 OutDir bin\Debug\net8.0\
+1>*** Target BeforeBuild *** net8.0
+1>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ ProjectFileName ClassLibrary1.csproj
+1>*** Target Pack *** TargetFramework net8.0 TargetName ClassLibrary1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll Target
+1>*** Target Pack *** MSBuildThisFile ClassLibrary1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ClassLibrary1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+1>*** Target Pack *** AssemblyName ClassLibrary1 OutDir bin\Debug\net8.0\
+2>*** Target PreBuildEvent *** net8.0
+2>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ ProjectFileName ConsoleApp1.csproj
+2>*** Target Pack *** TargetFramework net8.0 TargetName ConsoleApp1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll Target
+2>*** Target Pack *** MSBuildThisFile ConsoleApp1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ConsoleApp1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+2>*** Target Pack *** AssemblyName ConsoleApp1 OutDir bin\Debug\net8.0\
+2>*** Target BeforeResolveReferences *** net8.0
+2>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ ProjectFileName ConsoleApp1.csproj
+2>*** Target Pack *** TargetFramework net8.0 TargetName ConsoleApp1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll Target
+2>*** Target Pack *** MSBuildThisFile ConsoleApp1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ConsoleApp1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+2>*** Target Pack *** AssemblyName ConsoleApp1 OutDir bin\Debug\net8.0\
+2>*** Target AfterResolveReferences *** net8.0
+2>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ ProjectFileName ConsoleApp1.csproj
+2>*** Target Pack *** TargetFramework net8.0 TargetName ConsoleApp1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll Target
+2>*** Target Pack *** MSBuildThisFile ConsoleApp1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ConsoleApp1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+2>*** Target Pack *** AssemblyName ConsoleApp1 OutDir bin\Debug\net8.0\
+2>*** Target BeforeResGen *** net8.0
+2>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ ProjectFileName ConsoleApp1.csproj
+2>*** Target Pack *** TargetFramework net8.0 TargetName ConsoleApp1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll Target
+2>*** Target Pack *** MSBuildThisFile ConsoleApp1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ConsoleApp1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+2>*** Target Pack *** AssemblyName ConsoleApp1 OutDir bin\Debug\net8.0\
+2>*** Target AfterResGen *** net8.0
+2>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ ProjectFileName ConsoleApp1.csproj
+2>*** Target Pack *** TargetFramework net8.0 TargetName ConsoleApp1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll Target
+2>*** Target Pack *** MSBuildThisFile ConsoleApp1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ConsoleApp1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+2>*** Target Pack *** AssemblyName ConsoleApp1 OutDir bin\Debug\net8.0\
+1>*** Target PreBuildEvent *** net8.0
+1>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ ProjectFileName ClassLibrary1.csproj
+1>*** Target Pack *** TargetFramework net8.0 TargetName ClassLibrary1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll Target
+1>*** Target Pack *** MSBuildThisFile ClassLibrary1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ClassLibrary1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+1>*** Target Pack *** AssemblyName ClassLibrary1 OutDir bin\Debug\net8.0\
+1>*** Target BeforeResolveReferences *** net8.0
+1>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ ProjectFileName ClassLibrary1.csproj
+1>*** Target Pack *** TargetFramework net8.0 TargetName ClassLibrary1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll Target
+1>*** Target Pack *** MSBuildThisFile ClassLibrary1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ClassLibrary1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+1>*** Target Pack *** AssemblyName ClassLibrary1 OutDir bin\Debug\net8.0\
+1>*** Target AfterResolveReferences *** net8.0
+1>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ ProjectFileName ClassLibrary1.csproj
+1>*** Target Pack *** TargetFramework net8.0 TargetName ClassLibrary1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll Target
+1>*** Target Pack *** MSBuildThisFile ClassLibrary1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ClassLibrary1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+1>*** Target Pack *** AssemblyName ClassLibrary1 OutDir bin\Debug\net8.0\
+1>*** Target BeforeResGen *** net8.0
+1>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ ProjectFileName ClassLibrary1.csproj
+1>*** Target Pack *** TargetFramework net8.0 TargetName ClassLibrary1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll Target
+1>*** Target Pack *** MSBuildThisFile ClassLibrary1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ClassLibrary1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+1>*** Target Pack *** AssemblyName ClassLibrary1 OutDir bin\Debug\net8.0\
+1>*** Target AfterResGen *** net8.0
+1>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ ProjectFileName ClassLibrary1.csproj
+1>*** Target Pack *** TargetFramework net8.0 TargetName ClassLibrary1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll Target
+1>*** Target Pack *** MSBuildThisFile ClassLibrary1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ClassLibrary1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+2>*** Target BeforeCompile *** net8.0
+2>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ ProjectFileName ConsoleApp1.csproj
+2>*** Target Pack *** TargetFramework net8.0 TargetName ConsoleApp1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll Target
+2>*** Target Pack *** MSBuildThisFile ConsoleApp1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ConsoleApp1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+2>*** Target Pack *** AssemblyName ConsoleApp1 OutDir bin\Debug\net8.0\
+1>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+1>*** Target Pack *** AssemblyName ClassLibrary1 OutDir bin\Debug\net8.0\
+1>*** Target BeforeCompile *** net8.0
+1>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ ProjectFileName ClassLibrary1.csproj
+1>*** Target Pack *** TargetFramework net8.0 TargetName ClassLibrary1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll Target
+1>*** Target Pack *** MSBuildThisFile ClassLibrary1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ClassLibrary1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+1>*** Target Pack *** AssemblyName ClassLibrary1 OutDir bin\Debug\net8.0\
+1>*** Target AfterCompile *** net8.0
+1>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ ProjectFileName ClassLibrary1.csproj
+1>*** Target Pack *** TargetFramework net8.0 TargetName ClassLibrary1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll Target
+1>*** Target Pack *** MSBuildThisFile ClassLibrary1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ClassLibrary1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+1>*** Target Pack *** AssemblyName ClassLibrary1 OutDir bin\Debug\net8.0\
+1>ClassLibrary1 -> D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll
+1>*** Target PostBuildEvent *** net8.0
+1>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ ProjectFileName ClassLibrary1.csproj
+1>*** Target Pack *** TargetFramework net8.0 TargetName ClassLibrary1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll Target
+1>*** Target Pack *** MSBuildThisFile ClassLibrary1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ClassLibrary1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+2>*** Target AfterCompile *** net8.0
+2>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ ProjectFileName ConsoleApp1.csproj
+2>*** Target Pack *** TargetFramework net8.0 TargetName ConsoleApp1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll Target
+2>*** Target Pack *** MSBuildThisFile ConsoleApp1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ConsoleApp1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+2>*** Target Pack *** AssemblyName ConsoleApp1 OutDir bin\Debug\net8.0\
+1>*** Target Pack *** AssemblyName ClassLibrary1 OutDir bin\Debug\net8.0\
+1>*** Target AfterBuild *** net8.0
+1>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ ProjectFileName ClassLibrary1.csproj
+1>*** Target Pack *** TargetFramework net8.0 TargetName ClassLibrary1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll Target
+1>*** Target Pack *** MSBuildThisFile ClassLibrary1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ClassLibrary1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+1>*** Target Pack *** AssemblyName ClassLibrary1 OutDir bin\Debug\net8.0\
+1>*** Target BeforeResolveReferences *** net8.0
+2>ConsoleApp1 -> D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll
+1>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ ProjectFileName ClassLibrary1.csproj
+1>*** Target Pack *** TargetFramework net8.0 TargetName ClassLibrary1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll Target
+1>*** Target Pack *** MSBuildThisFile ClassLibrary1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ClassLibrary1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+1>*** Target Pack *** AssemblyName ClassLibrary1 OutDir bin\Debug\net8.0\
+1>*** Target AfterResolveReferences *** net8.0
+1>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ ProjectFileName ClassLibrary1.csproj
+1>*** Target Pack *** TargetFramework net8.0 TargetName ClassLibrary1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll Target
+1>*** Target Pack *** MSBuildThisFile ClassLibrary1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ClassLibrary1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+1>*** Target Pack *** AssemblyName ClassLibrary1 OutDir bin\Debug\net8.0\
+2>*** Target PostBuildEvent *** net8.0
+2>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ ProjectFileName ConsoleApp1.csproj
+2>*** Target Pack *** TargetFramework net8.0 TargetName ConsoleApp1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll Target
+2>*** Target Pack *** MSBuildThisFile ConsoleApp1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ConsoleApp1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+2>*** Target Pack *** AssemblyName ConsoleApp1 OutDir bin\Debug\net8.0\
+2>*** Target AfterBuild *** net8.0
+2>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ ProjectFileName ConsoleApp1.csproj
+2>*** Target Pack *** TargetFramework net8.0 TargetName ConsoleApp1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll Target
+2>*** Target Pack *** MSBuildThisFile ConsoleApp1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ConsoleApp1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+2>*** Target Pack *** AssemblyName ConsoleApp1 OutDir bin\Debug\net8.0\
+2>*** Target AfterRebuild *** net8.0
+2>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ ProjectFileName ConsoleApp1.csproj
+2>*** Target Pack *** TargetFramework net8.0 TargetName ConsoleApp1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll Target
+2>*** Target Pack *** MSBuildThisFile ConsoleApp1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1\ConsoleApp1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ConsoleApp1
+2>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+2>*** Target Pack *** AssemblyName ConsoleApp1 OutDir bin\Debug\net8.0\
+1>The package ClassLibrary1.1.0.0 is missing a readme. Go to https://aka.ms/nuget/authoring-best-practices/readme to learn why package readmes are important.
+1>Successfully created package 'D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\ClassLibrary1.1.0.0.nupkg'.
+1>*** Target PackB *** net8.0
+1>*** Target PackB *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ ProjectFileName ClassLibrary1.csproj
+1>*** Target PackB *** TargetFramework net8.0 TargetName ClassLibrary1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll Target
+1>*** Target PackB *** MSBuildThisFile ClassLibrary1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ClassLibrary1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target PackB *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target PackB *** Package  PackageName  PackageVersion 1.0.0
+1>*** Target PackB *** AssemblyName ClassLibrary1 OutDir bin\Debug\net8.0\
+1>*** Target PackA *** net8.0
+1>*** Target PackA *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ ProjectFileName ClassLibrary1.csproj
+1>*** Target PackA *** TargetFramework net8.0 TargetName ClassLibrary1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll Target
+1>*** Target PackA *** MSBuildThisFile ClassLibrary1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ClassLibrary1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target PackA *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target PackA *** Package  PackageName  PackageVersion 1.0.0
+1>*** Target PackA *** AssemblyName ClassLibrary1 OutDir bin\Debug\net8.0\
+1>*** Target AfterRebuild *** net8.0
+1>*** Target Pack *** ProjectDir D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ ProjectFileName ClassLibrary1.csproj
+1>*** Target Pack *** TargetFramework net8.0 TargetName ClassLibrary1 TargetPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll Target
+1>*** Target Pack *** MSBuildThisFile ClassLibrary1.csproj MSBuildThisFileFullPath D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1\ClassLibrary1.csproj MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** MSBuildProjectDirectory D:\git\chrhodes\VNCExplore\MsBuild\ClassLibrary1
+1>*** Target Pack *** Package  PackageName  PackageVersion 1.0.0
+1>*** Target Pack *** AssemblyName ClassLibrary1 OutDir bin\Debug\net8.0\
+========== Rebuild All: 2 succeeded, 0 failed, 0 skipped ==========
+========== Rebuild completed at 8:47 AM and took 01.900 seconds ==========

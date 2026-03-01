@@ -1,0 +1,280 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+    <!--NOTE: The below targets are examples of how to run custom actions at various stages of the build and packaging process.
+    You can customize the commands and tasks as needed for your specific requirements.
+    The list is roughly in the order of execution but may vary based on the specific build process and targets invoked.
+    
+    BeforeClean, AfterClean, BeforeBuild, PreBuildEvent, 
+    BeforeResolveReferences, AfterResolveReferences, BeforeResGen, AfterResGen, 
+    BeforeCompile, AfterCompile, 
+    PostBuildEvent, AfterBuild,
+    
+    BeforeRebuild, AfterRebuild, 
+    BeforePublish, AfterPublish, Pack
+    -->
+
+    <Target Name="MyBeforeClean" AfterTargets="BeforeClean">
+        <Message Text="*** Target BeforeClean *** $(TargetFramework)" Importance="high" />
+        <Message Text="*** Target Pack *** ProjectDir $(ProjectDir) ProjectFileName $(ProjectFileName)" Importance="high" />
+        <Message Text="*** Target Pack *** TargetFramework $(TargetFramework) TargetName $(TargetName) TargetPath $(TargetPath) Target $(Target)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildThisFile $(MSBuildThisFile) MSBuildThisFileFullPath $(MSBuildThisFileFullPath) MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** Package $(Package) PackageName $(PackageName) PackageVersion $(PackageVersion)" Importance="high" />
+        <Message Text="*** Target Pack *** AssemblyName $(AssemblyName) OutDir $(OutDir)" Importance="high" />
+    </Target>
+
+    <Target Name="MyAfterClean" AfterTargets="AfterClean">
+        <Message Text="*** Target AfterClean *** $(TargetFramework)" Importance="high" />
+        <Message Text="*** Target Pack *** ProjectDir $(ProjectDir) ProjectFileName $(ProjectFileName)" Importance="high" />
+        <Message Text="*** Target Pack *** TargetFramework $(TargetFramework) TargetName $(TargetName) TargetPath $(TargetPath) Target $(Target)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildThisFile $(MSBuildThisFile) MSBuildThisFileFullPath $(MSBuildThisFileFullPath) MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** Package $(Package) PackageName $(PackageName) PackageVersion $(PackageVersion)" Importance="high" />
+        <Message Text="*** Target Pack *** AssemblyName $(AssemblyName) OutDir $(OutDir)" Importance="high" />
+    </Target>
+
+    <Target Name="MyBeforeBuild" AfterTargets="BeforeBuild">
+        <Message Text="*** Target BeforeBuild *** $(TargetFramework)" Importance="high" />
+        <Message Text="*** Target Pack *** ProjectDir $(ProjectDir) ProjectFileName $(ProjectFileName)" Importance="high" />
+        <Message Text="*** Target Pack *** TargetFramework $(TargetFramework) TargetName $(TargetName) TargetPath $(TargetPath) Target $(Target)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildThisFile $(MSBuildThisFile) MSBuildThisFileFullPath $(MSBuildThisFileFullPath) MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** Package $(Package) PackageName $(PackageName) PackageVersion $(PackageVersion)" Importance="high" />
+        <Message Text="*** Target Pack *** AssemblyName $(AssemblyName) OutDir $(OutDir)" Importance="high" />
+    </Target>
+
+    <Target Name="MyPreBuild" BeforeTargets="PreBuildEvent">
+        <Message Text="*** Target PreBuildEvent *** $(TargetFramework)" Importance="high" />
+        <Message Text="*** Target Pack *** ProjectDir $(ProjectDir) ProjectFileName $(ProjectFileName)" Importance="high" />
+        <Message Text="*** Target Pack *** TargetFramework $(TargetFramework) TargetName $(TargetName) TargetPath $(TargetPath) Target $(Target)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildThisFile $(MSBuildThisFile) MSBuildThisFileFullPath $(MSBuildThisFileFullPath) MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** Package $(Package) PackageName $(PackageName) PackageVersion $(PackageVersion)" Importance="high" />
+        <Message Text="*** Target Pack *** AssemblyName $(AssemblyName) OutDir $(OutDir)" Importance="high" />
+    </Target>
+
+    <Target Name="MyBeforeResolveReferences" AfterTargets="BeforeResolveReferences">
+        <Message Text="*** Target BeforeResolveReferences *** $(TargetFramework)" Importance="high" />
+        <Message Text="*** Target Pack *** ProjectDir $(ProjectDir) ProjectFileName $(ProjectFileName)" Importance="high" />
+        <Message Text="*** Target Pack *** TargetFramework $(TargetFramework) TargetName $(TargetName) TargetPath $(TargetPath) Target $(Target)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildThisFile $(MSBuildThisFile) MSBuildThisFileFullPath $(MSBuildThisFileFullPath) MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** Package $(Package) PackageName $(PackageName) PackageVersion $(PackageVersion)" Importance="high" />
+        <Message Text="*** Target Pack *** AssemblyName $(AssemblyName) OutDir $(OutDir)" Importance="high" />
+    </Target>
+
+    <Target Name="MyAfterResolveReferences" AfterTargets="AfterResolveReferences">
+        <Message Text="*** Target AfterResolveReferences *** $(TargetFramework)" Importance="high" />
+        <Message Text="*** Target Pack *** ProjectDir $(ProjectDir) ProjectFileName $(ProjectFileName)" Importance="high" />
+        <Message Text="*** Target Pack *** TargetFramework $(TargetFramework) TargetName $(TargetName) TargetPath $(TargetPath) Target $(Target)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildThisFile $(MSBuildThisFile) MSBuildThisFileFullPath $(MSBuildThisFileFullPath) MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** Package $(Package) PackageName $(PackageName) PackageVersion $(PackageVersion)" Importance="high" />
+        <Message Text="*** Target Pack *** AssemblyName $(AssemblyName) OutDir $(OutDir)" Importance="high" />
+    </Target>
+
+    <Target Name="MyBeforeResGen" AfterTargets="BeforeResGen">
+        <Message Text="*** Target BeforeResGen *** $(TargetFramework)" Importance="high" />
+        <Message Text="*** Target Pack *** ProjectDir $(ProjectDir) ProjectFileName $(ProjectFileName)" Importance="high" />
+        <Message Text="*** Target Pack *** TargetFramework $(TargetFramework) TargetName $(TargetName) TargetPath $(TargetPath) Target $(Target)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildThisFile $(MSBuildThisFile) MSBuildThisFileFullPath $(MSBuildThisFileFullPath) MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** Package $(Package) PackageName $(PackageName) PackageVersion $(PackageVersion)" Importance="high" />
+        <Message Text="*** Target Pack *** AssemblyName $(AssemblyName) OutDir $(OutDir)" Importance="high" />
+    </Target>
+
+    <Target Name="MyAfterResGen" AfterTargets="AfterResGen">
+        <Message Text="*** Target AfterResGen *** $(TargetFramework)" Importance="high" />
+        <Message Text="*** Target Pack *** ProjectDir $(ProjectDir) ProjectFileName $(ProjectFileName)" Importance="high" />
+        <Message Text="*** Target Pack *** TargetFramework $(TargetFramework) TargetName $(TargetName) TargetPath $(TargetPath) Target $(Target)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildThisFile $(MSBuildThisFile) MSBuildThisFileFullPath $(MSBuildThisFileFullPath) MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** Package $(Package) PackageName $(PackageName) PackageVersion $(PackageVersion)" Importance="high" />
+        <Message Text="*** Target Pack *** AssemblyName $(AssemblyName) OutDir $(OutDir)" Importance="high" />
+    </Target>
+
+    <Target Name="MyBeforeCompile" AfterTargets="BeforeCompile">
+        <Message Text="*** Target BeforeCompile *** $(TargetFramework)" Importance="high" />
+        <Message Text="*** Target Pack *** ProjectDir $(ProjectDir) ProjectFileName $(ProjectFileName)" Importance="high" />
+        <Message Text="*** Target Pack *** TargetFramework $(TargetFramework) TargetName $(TargetName) TargetPath $(TargetPath) Target $(Target)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildThisFile $(MSBuildThisFile) MSBuildThisFileFullPath $(MSBuildThisFileFullPath) MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** Package $(Package) PackageName $(PackageName) PackageVersion $(PackageVersion)" Importance="high" />
+        <Message Text="*** Target Pack *** AssemblyName $(AssemblyName) OutDir $(OutDir)" Importance="high" />
+    </Target>
+
+    <Target Name="MyAfterCompile" AfterTargets="AfterCompile">
+        <Message Text="*** Target AfterCompile *** $(TargetFramework)" Importance="high" />
+        <Message Text="*** Target Pack *** ProjectDir $(ProjectDir) ProjectFileName $(ProjectFileName)" Importance="high" />
+        <Message Text="*** Target Pack *** TargetFramework $(TargetFramework) TargetName $(TargetName) TargetPath $(TargetPath) Target $(Target)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildThisFile $(MSBuildThisFile) MSBuildThisFileFullPath $(MSBuildThisFileFullPath) MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** Package $(Package) PackageName $(PackageName) PackageVersion $(PackageVersion)" Importance="high" />
+        <Message Text="*** Target Pack *** AssemblyName $(AssemblyName) OutDir $(OutDir)" Importance="high" />
+    </Target>
+
+    <Target Name="MyPostBuild" AfterTargets="PostBuildEvent">
+        <Message Text="*** Target PostBuildEvent *** $(TargetFramework)" Importance="high" />
+        <Message Text="*** Target Pack *** ProjectDir $(ProjectDir) ProjectFileName $(ProjectFileName)" Importance="high" />
+        <Message Text="*** Target Pack *** TargetFramework $(TargetFramework) TargetName $(TargetName) TargetPath $(TargetPath) Target $(Target)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildThisFile $(MSBuildThisFile) MSBuildThisFileFullPath $(MSBuildThisFileFullPath) MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** Package $(Package) PackageName $(PackageName) PackageVersion $(PackageVersion)" Importance="high" />
+        <Message Text="*** Target Pack *** AssemblyName $(AssemblyName) OutDir $(OutDir)" Importance="high" />
+    </Target>
+
+    <Target Name="MyAfterBuild" AfterTargets="AfterBuild">
+        <Message Text="*** Target AfterBuild *** $(TargetFramework)" Importance="high" />
+        <Message Text="*** Target Pack *** ProjectDir $(ProjectDir) ProjectFileName $(ProjectFileName)" Importance="high" />
+        <Message Text="*** Target Pack *** TargetFramework $(TargetFramework) TargetName $(TargetName) TargetPath $(TargetPath) Target $(Target)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildThisFile $(MSBuildThisFile) MSBuildThisFileFullPath $(MSBuildThisFileFullPath) MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** Package $(Package) PackageName $(PackageName) PackageVersion $(PackageVersion)" Importance="high" />
+        <Message Text="*** Target Pack *** AssemblyName $(AssemblyName) OutDir $(OutDir)" Importance="high" />
+    </Target>
+
+    <Target Name="MyBeforeRebuild" AfterTargets="BeforeRebuild">
+        <Message Text="*** Target BeforeRebuild *** $(TargetFramework)" Importance="high" />
+        <Message Text="*** Target Pack *** ProjectDir $(ProjectDir) ProjectFileName $(ProjectFileName)" Importance="high" />
+        <Message Text="*** Target Pack *** TargetFramework $(TargetFramework) TargetName $(TargetName) TargetPath $(TargetPath) Target $(Target)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildThisFile $(MSBuildThisFile) MSBuildThisFileFullPath $(MSBuildThisFileFullPath) MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** Package $(Package) PackageName $(PackageName) PackageVersion $(PackageVersion)" Importance="high" />
+        <Message Text="*** Target Pack *** AssemblyName $(AssemblyName) OutDir $(OutDir)" Importance="high" />
+    </Target>
+    
+    <Target Name="MyAfterRebuild" AfterTargets="AfterRebuild">
+        <Message Text="*** Target AfterRebuild *** $(TargetFramework)" Importance="high" />
+        <Message Text="*** Target Pack *** ProjectDir $(ProjectDir) ProjectFileName $(ProjectFileName)" Importance="high" />
+        <Message Text="*** Target Pack *** TargetFramework $(TargetFramework) TargetName $(TargetName) TargetPath $(TargetPath) Target $(Target)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildThisFile $(MSBuildThisFile) MSBuildThisFileFullPath $(MSBuildThisFileFullPath) MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** Package $(Package) PackageName $(PackageName) PackageVersion $(PackageVersion)" Importance="high" />
+        <Message Text="*** Target Pack *** AssemblyName $(AssemblyName) OutDir $(OutDir)" Importance="high" />
+    </Target>
+
+    <Target Name="MyBeforePublish" AfterTargets="BeforePublish">
+        <Message Text="*** Target BeforePublish *** $(TargetFramework)" Importance="high" />
+        <Message Text="*** Target Pack *** ProjectDir $(ProjectDir) ProjectFileName $(ProjectFileName)" Importance="high" />
+        <Message Text="*** Target Pack *** TargetFramework $(TargetFramework) TargetName $(TargetName) TargetPath $(TargetPath) Target $(Target)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildThisFile $(MSBuildThisFile) MSBuildThisFileFullPath $(MSBuildThisFileFullPath) MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** Package $(Package) PackageName $(PackageName) PackageVersion $(PackageVersion)" Importance="high" />
+        <Message Text="*** Target Pack *** AssemblyName $(AssemblyName) OutDir $(OutDir)" Importance="high" />
+    </Target>
+    
+    <Target Name="MyAfterPublish" AfterTargets="AfterPublish">
+        <Message Text="*** Target AfterPublish *** $(TargetFramework)" Importance="high" />
+        <Message Text="*** Target Pack *** ProjectDir $(ProjectDir) ProjectFileName $(ProjectFileName)" Importance="high" />
+        <Message Text="*** Target Pack *** TargetFramework $(TargetFramework) TargetName $(TargetName) TargetPath $(TargetPath) Target $(Target)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildThisFile $(MSBuildThisFile) MSBuildThisFileFullPath $(MSBuildThisFileFullPath) MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target Pack *** Package $(Package) PackageName $(PackageName) PackageVersion $(PackageVersion)" Importance="high" />
+        <Message Text="*** Target Pack *** AssemblyName $(AssemblyName) OutDir $(OutDir)" Importance="high" />
+    </Target>
+
+    <Target Name="MyPackB" BeforeTargets="Pack">
+        <Message Text="*** Target PackB *** $(TargetFramework)" Importance="high" />
+        <Message Text="*** Target PackB *** ProjectDir $(ProjectDir) ProjectFileName $(ProjectFileName)" Importance="high" />
+        <Message Text="*** Target PackB *** TargetFramework $(TargetFramework) TargetName $(TargetName) TargetPath $(TargetPath) Target $(Target)" Importance="high" />
+        <Message Text="*** Target PackB *** MSBuildThisFile $(MSBuildThisFile) MSBuildThisFileFullPath $(MSBuildThisFileFullPath) MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target PackB *** MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target PackB *** Package $(Package) PackageName $(PackageName) PackageVersion $(PackageVersion)" Importance="high" />
+        <Message Text="*** Target PackB *** AssemblyName $(AssemblyName) OutDir $(OutDir)" Importance="high" />
+    </Target>
+
+    <Target Name="MyPackA" AfterTargets="Pack">
+        <Message Text="*** Target PackA *** $(TargetFramework)" Importance="high" />
+        <Message Text="*** Target PackA *** ProjectDir $(ProjectDir) ProjectFileName $(ProjectFileName)" Importance="high" />
+        <Message Text="*** Target PackA *** TargetFramework $(TargetFramework) TargetName $(TargetName) TargetPath $(TargetPath) Target $(Target)" Importance="high" />
+        <Message Text="*** Target PackA *** MSBuildThisFile $(MSBuildThisFile) MSBuildThisFileFullPath $(MSBuildThisFileFullPath) MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target PackA *** MSBuildProjectDirectory $(MSBuildProjectDirectory)" Importance="high" />
+        <Message Text="*** Target PackA *** Package $(Package) PackageName $(PackageName) PackageVersion $(PackageVersion)" Importance="high" />
+        <Message Text="*** Target PackA *** AssemblyName $(AssemblyName) OutDir $(OutDir)" Importance="high" />
+    </Target>
+
+    <!--Here are more from this command
+    dotnet build -targets VNC.Core.csproj | select-string -pattern '_' -NotMatch
+    -->
+
+    <!--
+    AfterSdkPublish
+    PreBuild
+    PostBuild
+    PostPackageActions
+    GetTargetFrameworks
+    GetTargetFrameworksWithPlatformFromInnerBuilds
+    InitializeSourceControlInformation
+    DispatchToInnerBuilds
+    Build
+    Clean
+    Rebuild
+    Restore
+    GenerateRestoreGraphFile
+    CollectPackageReferences
+    CollectCentralPackageVersions
+    CollectPackageDownloads
+    CollectFrameworkReferences
+    CollectNuGetAuditSuppressions
+    CollectPrunePackageReferences
+    EnableIntermediateOutputPathMismatchWarning
+    DispatchToInnerBuildsWithVSTestTarget
+    VSTest
+    BuildProject
+    SetVSTestInnerTarget
+    InitializeSourceControlInformationFromSourceControlManager
+    SetEmbeddedFilesFromSourceControlManagerUntrackedFiles
+    SourceControlManagerPublishTranslatedUrls
+    TranslateGitHubUrlsInSourceControlInformation
+    TranslateGitLabUrlsInSourceControlInformation
+    TranslateAzureReposGitUrlsInSourceControlInformation
+    TranslateBitbucketGitUrlsInSourceControlInformation
+    Publish
+    GetAllRuntimeIdentifiers
+    GetPackagingOutputs
+    CollectApiCompatInputs
+    RunPackageValidation
+    GetReferencesForApiCompatValidatePackage
+    Pack
+    GenerateNuspec
+    ComputeContainerBaseImage
+    ComputeContainerConfig
+    PublishContainer-->
+
+    <!--Not much luck getting the below targets to run. 
+    They don't seem to be invoked by the default build and pack targets. 
+    They may require specific commands or targets to be invoked.-->
+    
+    <!--<Target Name="MyAfterSdkPublish" AfterTargets="AfterSdkPublish">
+        <Message Text="*** Target AfterSdkPublish ***" Importance="high" />
+    </Target>
+
+    <Target Name="MyPostPackageActions" AfterTargets="PostPackageActions">
+        <Message Text="*** Target PostPackageActions ***" Importance="high" />
+    </Target>
+
+    <Target Name="MyBuildProject" AfterTargets="BuildProject">
+        <Message Text="*** Target BuildProject ***" Importance="high" />
+    </Target>-->
+
+    <Target Name="AfterSdkPublish">
+        <Message Text="*** Target AfterSdkPublish ***" Importance="high" />
+    </Target>
+
+    <Target Name="PostPackageActions">
+        <Message Text="*** Target PostPackageActions ***" Importance="high" />
+    </Target>
+
+    <Target Name="BuildProject">
+        <Message Text="*** Target BuildProject ***" Importance="high" />
+    </Target>
+
+
+</Project>

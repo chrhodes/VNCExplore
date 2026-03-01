@@ -11,5 +11,6 @@ prism-mastering-tabcontrol        prism-mastering-tabcontrol-8.1.97
 prism-problems-solutions          prism-problems-solutions-8.1.97
 prism-showing-multiple-shells     prism-showing-multiple-shells-8.1.97
 
+prism-problems-solutions is prism-loading-dependent-views
 
 Christopher
